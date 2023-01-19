@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+import Count from "./Count";
+import Usestate from "./Usestate";
+import Usestateadd from "./Usestateadd";
+import Arraydata from "./Arraydata";
+import Functionmap from "./Functionmap";
+import Form from "./Form";
+import Evenodd from "./Evenodd";
+import Leapyear from "./Leapyear";
+import Addage from "./Addage";
+import Addcount from "./Addcount";
+import Education from "./Education";
+import Hobby from "./Hobby";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Count/> */}
+      {/* <Usestate/> */}
+      {/* <Usestateadd/> */}
+      {/* <Arraydata/> */}
+      {/* <Functionmap/> */}
+      {/* <Form /> */}
+      {/* <Evenodd/> */}
+      {/* <Leapyear/> */}
+      {/* <Addage/> */}
+      {/* <Addcount/> */}
+      <Education />
+
+      {/* <Hobby/> */}
     </div>
   );
 }
